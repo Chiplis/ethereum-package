@@ -2,9 +2,9 @@ shared_utils = import_module("../shared_utils/shared_utils.star")
 SERVICE_NAME = "spamoor-blob"
 
 # The min/max CPU/memory that spamoor can use
-MIN_CPU = 100
+MIN_CPU = 0
 MAX_CPU = 1000
-MIN_MEMORY = 20
+MIN_MEMORY = 0
 MAX_MEMORY = 300
 
 
